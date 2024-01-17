@@ -1,0 +1,61 @@
+name: mobic_cover
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # FOR ROUTING
+  go_router: ^13.0.0
+  universal_html: ^2.2.4
+
+  # For State Management
+  get: ^4.6.5
+
+  # FOR LOCAL STORAGE
+  get_storage: ^2.1.1
+
+  # FOR SHOW ALERTS
+  elegant_notification: 1.11.2
+
+  # FOR SVG IMAGES
+  flutter_svg: 2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/svg/
+
+
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
